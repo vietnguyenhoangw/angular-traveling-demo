@@ -1,0 +1,9 @@
+.nav-item {
+  margin-left: 24px;
+  border-bottom: 2px solid white;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid orange;
+}
+

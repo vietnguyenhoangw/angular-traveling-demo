@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faCirclePlay, faTaxi, faGlobe, faWallet, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-home-page',
@@ -6,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent implements OnInit {
+
+  iconBannerPlay = faCirclePlay
+  iconAwards = [faTaxi, faGlobe, faWallet, faPeopleGroup]
 
   constructor() { }
 

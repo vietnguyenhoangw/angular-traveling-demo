@@ -1,0 +1,129 @@
+.banner-title-desktop {
+  position: absolute;
+  left: 8%;
+  top: 20%;
+}
+
+.banner-title-desktop,
+.banner-title-mobile>p {
+  font-size: 42px;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+.card {
+  border: 0px solid transparent;
+}
+
+.card-title {
+  font-size: 16px;
+  color: #0DCAF0;
+  margin-top: 14px;
+  font-weight: bold;
+  margin: 0px;
+
+}
+
+.card-text {
+  font-size: 14px;
+  padding: 0px;
+}
+
+.card-body>fa-icon {
+  font-size: 38px
+}
+
+.suggest-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.suggest-description {
+  color: grey
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.masonry-with-columns-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.masonry-with-columns-2 div {
+  height: 150px;
+  line-height: 150px;
+  background: #9b1b30;
+  color: white;
+  margin: 0 1rem 1rem 0;
+  text-align: center;
+  font-weight: 900;
+  font-size: 2rem;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.masonry-with-columns-2 div:nth-child(1) {
+  width: 222px;
+  background-image: url("https://media.istockphoto.com/photos/woman-traveler-in-europa-alhambra-in-spain-picture-id1363398400?k=20&m=1363398400&s=170667a&w=0&h=RHd8Ir1SHT_1GAg0sWCj_teGQdVcHF1lS0B8iL-Wreo=");
+  background-size: cover;
+}
+
+.masonry-with-columns-2 div:nth-child(2) {
+  width: 102px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHaZjznMbF_7Ryn2rx21MgfX1TD9ygMGulCg&usqp=CAU");
+  background-size: cover;
+}
+
+.masonry-with-columns-2 div:nth-child(3) {
+  width: 155px;
+  background-image: url("https://images.hindustantimes.com/img/2021/07/26/550x309/0b4446e2-e9f1-11eb-9a2b-f40b6f7ff9cb_1627279895460.jpg");
+  background-size: cover;
+}
+
+.masonry-with-columns-2 div:nth-child(4) {
+  width: 365px;
+  background-image: url("https://media.istockphoto.com/photos/young-adult-couple-admiring-the-sunset-in-a-tent-on-the-beach-picture-id1135954769?k=20&m=1135954769&s=612x612&w=0&h=M0HoAp2LGGUNhnbBQCuPSmWIjQCJ4Wyj4aVFKmFHFcQ=");
+  background-size: cover;
+}
+
+.masonry-with-columns-2 div:nth-child(5) {
+  width: 132px;
+  background-image: url("https://media.istockphoto.com/photos/couple-sitting-in-camp-chairs-looking-at-sunset-above-river-in-picture-id1262230418?b=1&k=20&m=1262230418&s=170667a&w=0&h=OB464uMLzw47bWISpscGT6HJ3PI1coe9hGdcsOfUDXM=");
+  background-size: cover;
+}
+
+.masonry-with-columns-2 div:nth-child(6) {
+  width: 106px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZTvRn3wIzFN5k47YGOD0os-0Hz1eKgjFXQ&usqp=CAU");
+  background-size: cover;
+}
+
+.masonry-with-columns-2 div:nth-child(7) {
+  width: 199px;
+  background-image: url("https://cdn.goturkiye.com/goturkey/6-kucukkapak.jpg");
+  background-size: cover;
+}
+
+.masonry-with-columns-2 div:nth-child(8) {
+  width: 164px;
+  background-image: url("https://static.euronews.com/articles/stories/06/30/84/48/808x454_cmsv2_2754f4e5-189a-5a6d-9664-b7bfef3110a5-6308448.jpg");
+  background-size: cover;
+}
+
+.masonry-with-columns-2 div:nth-child(9) {
+  width: 424px;
+  height: 450px;
+  background-image: url("https://topviettravel.com/wp-content/uploads/2022/05/titlis-1.jpg");
+  background-size: cover;
+}

@@ -1,3 +1,227 @@
 <div class="w-100">
   <app-header></app-header>
+
+  <div class="row">
+    <div class="col-0 col-md-1"></div>
+
+    <div class="col mx-4 me-md-0">
+
+      <!-- banner -->
+      <div>
+        <div class="banner-title-desktop d-none d-md-block text-start">
+          <p>Its Time For New Adventures, <br>Escapes thrill & experiences</p>
+          <button type="button" class="btn btn-info">
+            <fa-icon [icon]="iconBannerPlay" class="me-2"></fa-icon>
+            Play video
+          </button>
+        </div>
+        <div class="banner-title-mobile d-block d-md-none text-start">
+          <p>Its Time For New Adventures, Escapes thrill & experiences</p>
+          <button type="button" class="btn btn-info mb-4">
+            <fa-icon [icon]="iconBannerPlay" class="me-2"></fa-icon>
+            Play video
+          </button>
+        </div>
+
+        <div class="d-none d-md-block text-end">
+          <img src="https://hdstockimages.com/wp-content/uploads/2022/08/e28d7f6292f80e937c331f6f5faa220a1df095c0.jpg"
+            class="img-fluid" alt="Responsive image" width="70%">
+        </div>
+        <div class="d-block d-md-none">
+          <img src="https://hdstockimages.com/wp-content/uploads/2022/08/e28d7f6292f80e937c331f6f5faa220a1df095c0.jpg"
+            class="img-fluid" alt="Responsive image" width="100%">
+        </div>
+
+        <!-- award -->
+        <div class="card-group my-5">
+          <div class="card">
+            <div class="card-body row">
+              <fa-icon [icon]="iconAwards[0]" class="me-2 col-auto align-self-center"></fa-icon>
+              <div class="col">
+                <p class="card-title">24,000</p>
+                <p class="card-text">Travel Experience</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body row">
+              <fa-icon [icon]="iconAwards[1]" class="me-2 col-auto align-self-center"></fa-icon>
+              <div class="col">
+                <p class="card-title">55+</p>
+                <p class="card-text">Countries</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body row">
+              <fa-icon [icon]="iconAwards[2]" class="me-2 col-auto align-self-center"></fa-icon>
+              <div class="col">
+                <p class="card-title">Best Price</p>
+                <p class="card-text">Guaranteed</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body row">
+              <fa-icon [icon]="iconAwards[3]" class="me-2 col-auto align-self-center"></fa-icon>
+              <div class="col">
+                <p class="card-title">84+ Millions</p>
+                <p class="card-text">User per year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- suggest perfect place -->
+        <div class="row">
+          <div class="col-12 col-md align-self-center">
+            <p class="suggest-title mb-4">Find the perfect place</p>
+            <p class="suggest-description mb-4">A list of the top 75 Best Tourist Places to see in world for a perfect
+              holiday or a trip</p>
+            <button type="button" class="btn btn-info px-3">View more</button>
+          </div>
+          <div class="col-12 col-md mt-5 mt-md-0">
+            <mdb-carousel [controls]="true" [indicators]="true" [animation]="'fade'">
+              <mdb-carousel-item>
+                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).webp" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Bangalore</h5>
+                </div>
+              </mdb-carousel-item>
+              <mdb-carousel-item>
+                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Coorg</h5>
+                </div>
+              </mdb-carousel-item>
+              <mdb-carousel-item>
+                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).webp" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Island</h5>
+                </div>
+              </mdb-carousel-item>
+            </mdb-carousel>
+          </div>
+        </div>
+
+        <!-- top rate -->
+        <div class="text-center mt-5">
+          <p class="suggest-title mb-4">Top rated experiences on Travel</p>
+          <div class="card-group mb-5">
+            <div class="card">
+              <div class="card-body text-center">
+                <img src="https://i.pinimg.com/736x/db/40/06/db400691ff5bf1baeb0da08a3a920c5d.jpg" class="img-fluid"
+                  alt="Responsive image" width="70%">
+                <p class="fw-bold mt-4 px-4 text-start">Beautiful luxury outdoor swimming pool hotel resort</p>
+                <p class="px-4 text-start text-warning">Viet Nguyen</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body text-center">
+                <img src="https://i.pinimg.com/736x/0f/09/36/0f0936735ad906754dbef3eda52abfdd.jpg" class="img-fluid"
+                  alt="Responsive image" width="70%">
+                <p class="fw-bold mt-4 px-4 text-start">Patio balcony with chair around see ocean view</p>
+                <p class="px-4 text-start text-warning">Hoai Thuong</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body text-center">
+                <img src="https://i.pinimg.com/originals/21/d4/3a/21d43ab43281fe0b8c59dd3753f82b6c.jpg"
+                  class="img-fluid" alt="Responsive image" width="70%">
+                <p class="fw-bold mt-4 px-4 text-start">Athletic man floats red boat river</p>
+                <p class="px-4 text-start text-warning">Nhan Tran</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body text-center">
+                <img
+                  src="https://i.pinimg.com/474x/e4/36/14/e43614e8964e3027a6fbc09896167064--bff-poses-friends-girls.jpg"
+                  class="img-fluid" alt="Responsive image" width="70%">
+                <p class="fw-bold mt-4 px-4 text-start">Beautiful hikers top mountain view</p>
+                <p class="px-4 text-start text-warning">Moc Nhi Tran</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- top feedback picture -->
+        <div>
+          <p class="suggest-title mb-4">Top feedback picture</p>
+          <div class="masonry-with-columns-2" id="masonry-with-columns-2">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+
+        <!-- view more info -->
+        <div class="row mt-5">
+          <div class="col-12 col-md mt-5 mt-md-0">
+            <img src="https://www.slidesalad.com/wp-content/uploads/2017/02/slide_005-6.jpg" class="img-fluid"
+              alt="Responsive image" width="120%">
+          </div>
+          <div class="col-12 col-md align-self-center">
+            <p class="suggest-title mb-4">Latest Travel Trends</p>
+            <p class="suggest-description mb-4">A list of the top 75 Best Tourist Places to see in world for a perfect
+              holiday or a trip, beautiful luxury outdoor swimming pool hotel resort</p>
+            <button type="button" class="btn btn-info px-3">View more</button>
+          </div>
+        </div>
+
+        <!-- Ours -->
+        <div class="mt-5">
+          <p class="suggest-title text-center">About Us</p>
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-md-9 col-lg-7 col-xl-5">
+              <div class="card" style="border-radius: 15px;">
+                <div class="card-body p-4">
+                  <div class="d-flex text-black">
+                    <div class="flex-shrink-0">
+                      <img src="https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/308413571_111107105086475_1920302683382250625_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=WkADhQ2NgIsAX9OydMX&_nc_oc=AQlX-axuT8sgLXZMPwvTsY6tyNBrYKDab2eC1Y7UC1UAI5zkRQjl-UlXdkKY79_dfys&tn=LZAselDGlNT1Hzr8&_nc_ht=scontent.fsgn8-4.fna&oh=00_AT8-2TMy1DUiiY9cMLpeYx5mz0ZLOgZMVVJDwrrtVUIBtA&oe=6331E7EA"
+                        alt="Generic placeholder image" class="img-fluid"
+                        style="width: 180px; border-radius: 10px;">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h5 class="mb-1">Daniel Nguyen</h5>
+                      <p class="mb-2 pb-1" style="color: #2b2a2a;">Software Engineer</p>
+                      <div class="d-flex justify-content-start rounded-3 p-2 mb-2"
+                        style="background-color: #efefef;">
+                        <div>
+                          <p class="small text-muted mb-1">Articles</p>
+                          <p class="mb-0">41</p>
+                        </div>
+                        <div class="px-3">
+                          <p class="small text-muted mb-1">Followers</p>
+                          <p class="mb-0">976</p>
+                        </div>
+                        <div>
+                          <p class="small text-muted mb-1">Rating</p>
+                          <p class="mb-0">8.5</p>
+                        </div>
+                      </div>
+                      <div class="d-flex pt-1">
+                        <button type="button" class="btn btn-outline-primary me-1 flex-grow-1">Chat</button>
+                        <button type="button" class="btn btn-primary flex-grow-1">Follow</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-0 col-md-1"></div>
+  </div>
+
+  <app-footer></app-footer>
 </div>

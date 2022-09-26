@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatExpansionModule} from '@angular/material/expansion';
 
+import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
     FontAwesomeModule,
     BrowserAnimationsModule,
     MatExpansionModule,
+    MdbCarouselModule
   ],
   providers: [
     AuthGuardService

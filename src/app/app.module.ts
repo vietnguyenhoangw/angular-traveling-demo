@@ -13,8 +13,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatExpansionModule} from '@angular/material/expansion';
-
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
+import { ToastrModule } from 'ngx-toastr';
+import { NgxLoadingModule } from "ngx-loading";
 
 @NgModule({
   declarations: [
@@ -31,7 +32,9 @@ import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
     FontAwesomeModule,
     BrowserAnimationsModule,
     MatExpansionModule,
-    MdbCarouselModule
+    MdbCarouselModule,
+    ToastrModule.forRoot(),
+    NgxLoadingModule.forRoot({})
   ],
   providers: [
     AuthGuardService

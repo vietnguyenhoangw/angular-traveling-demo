@@ -20,7 +20,8 @@
                 aria-label="Password" aria-describedby="basic-addon1">
             </div>
             <div class="mb-5">
-              <button (click)="onPressSignIn()" type="button" class="btn btn-info btn-lg btn-block w-100 text-white">Sign
+              <button (click)="onPressSignIn()" type="button"
+                class="btn btn-info btn-lg btn-block w-100 text-white">Sign
                 in</button>
             </div>
             <div class="mb-5">
@@ -53,4 +54,9 @@
     </div>
 
   </div>
+
+
+  <!-- loading -->
+  <ngx-loading [show]="loading" [config]="{ backdropBorderRadius: '3px' }">
+  </ngx-loading>
 </div>

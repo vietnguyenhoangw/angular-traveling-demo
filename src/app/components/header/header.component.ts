@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { AuthService } from 'src/app/service/auth.service';
 
 @Component({
   selector: 'app-header',
@@ -10,16 +11,24 @@ export class HeaderComponent implements OnInit {
   // props
   iconMenu = faBars;
 
-  // state
-  panelOpenState = false;
 
-  constructor() { }
+  // state
+  isPanelOpenState = false;
+  isLoginActive = false;
+  logout = "logout";
+
+  constructor(
+    private authService: AuthService,
+  ) {}
 
   ngOnInit(): void {
+    console.log('====================================');
+    console.log(this.authService.getCurrentUser());
+    console.log('====================================');
   }
 
   onExpandMenu(): void {
-    this.panelOpenState = !this.panelOpenState
+    this.isPanelOpenState = !this.isPanelOpenState
   }
 
 }

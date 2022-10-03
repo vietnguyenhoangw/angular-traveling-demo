@@ -15,7 +15,10 @@
           <a class="nav-item nav-link" href="#">About</a>
           <a class="nav-item nav-link" href="#">Adventures</a>
           <a class="nav-item nav-link" href="#">Contact</a>
-          <a class="nav-item nav-link" href="#">Login</a>
+          <a *ngIf="isLoginActive; else hasBeenLogin" class="nav-item nav-link" href="#">Login</a>
+          <ng-template #hasBeenLogin class="nav-item nav-link" href="#">
+            <a class="nav-item nav-link" href="#">{{ logout }}</a>
+          </ng-template>
         </div>
       </div>
 

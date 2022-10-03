@@ -1,0 +1,6 @@
+{
+  "/authaccount": {
+    "target": "http://restapi.adequateshop.com/api",
+    "secure": false
+  }
+}

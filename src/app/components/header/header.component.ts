@@ -16,6 +16,7 @@ export class HeaderComponent implements OnInit {
   isPanelOpenState = false;
   isLoginActive = false;
   logout = "logout";
+  onShowMobileMenu = false
 
   constructor(
     private authService: AuthService,
@@ -31,4 +32,7 @@ export class HeaderComponent implements OnInit {
     this.isPanelOpenState = !this.isPanelOpenState
   }
 
+  onOpenMenu(): void {
+    this.onShowMobileMenu = !this.onShowMobileMenu
+  }
 }

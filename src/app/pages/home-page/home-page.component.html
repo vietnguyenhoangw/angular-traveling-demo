@@ -10,14 +10,14 @@
       <div>
         <div class="banner-title-desktop d-none d-md-block text-start">
           <p>Its Time For New Adventures, <br>Escapes thrill & experiences</p>
-          <button type="button" class="btn btn-info">
+          <button type="button" class="btn btn-info" (click)="openModal()">
             <fa-icon [icon]="iconBannerPlay" class="me-2"></fa-icon>
             Play video
           </button>
         </div>
         <div class="banner-title-mobile d-block d-md-none text-start">
           <p>Its Time For New Adventures, Escapes thrill & experiences</p>
-          <button type="button" class="btn btn-info mb-4">
+          <button type="button" class="btn btn-info mb-4" (click)="openModal()">
             <fa-icon [icon]="iconBannerPlay" class="me-2"></fa-icon>
             Play video
           </button>
@@ -221,6 +221,7 @@
     </div>
 
     <div class="col-0 col-md-1"></div>
+
   </div>
 
   <app-footer></app-footer>

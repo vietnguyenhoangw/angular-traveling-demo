@@ -16,6 +16,9 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 import { ToastrModule } from 'ngx-toastr';
 import { NgxLoadingModule } from "ngx-loading";
+import { MdbModalModule } from 'mdb-angular-ui-kit/modal';
+import { ModalComponent } from './components/modal/modal.component';
+import { MatDialogModule } from "@angular/material/dialog"
 
 @NgModule({
   declarations: [
@@ -23,7 +26,8 @@ import { NgxLoadingModule } from "ngx-loading";
     LoginPageComponent,
     HomePageComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +37,8 @@ import { NgxLoadingModule } from "ngx-loading";
     BrowserAnimationsModule,
     MatExpansionModule,
     MdbCarouselModule,
+    MdbModalModule,
+    MatDialogModule,
     ToastrModule.forRoot(),
     NgxLoadingModule.forRoot({})
   ],

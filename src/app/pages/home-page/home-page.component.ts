@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import {
   faCirclePlay,
   faTaxi,
@@ -6,7 +7,7 @@ import {
   faWallet,
   faPeopleGroup,
 } from '@fortawesome/free-solid-svg-icons';
-import { AuthService } from 'src/app/service/auth.service';
+import { ModalComponent } from 'src/app/components/modal/modal.component';
 
 @Component({
   selector: 'app-home-page',
@@ -17,7 +18,16 @@ export class HomePageComponent implements OnInit {
   iconBannerPlay = faCirclePlay;
   iconAwards = [faTaxi, faGlobe, faWallet, faPeopleGroup];
 
-  constructor() {}
+  constructor(
+    private modalRef: MatDialog
+  ) {}
 
   ngOnInit(): void {}
+
+  openModal() {
+    this.modalRef.open(ModalComponent, {
+      width: "100%",
+      height: "50%"
+    })
+  }
 }

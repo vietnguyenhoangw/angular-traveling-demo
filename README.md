@@ -1,27 +1,26 @@
-# HelloAngular
+# 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
+## Introduce
+`Taget:` Have first meet with Angular, working with modules, components, services, understanding structure, router, how to connect with some api and handle response, integrated some 3rds lib ... <br/><br/>
+Demo mini traveling website written by angular contain 2 of pages
+* Login Page <br/>
+* Home Page <br/><br/>
+`This website has been integrated service module to connect login API into Home Page.`
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. <br/>
+*** Do not forget install node environment and angular.
 
-## Running unit tests
+## Demo
+<img width="1920" alt="Screen Shot 2022-10-11 at 10 27 56 AM" src="https://user-images.githubusercontent.com/43869718/194991198-9bcf02ca-7b0f-454d-b6cb-c1464bf8ea37.png">
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<img width="1920" alt="Screen Shot 2022-10-11 at 10 35 44 AM" src="https://user-images.githubusercontent.com/43869718/194991540-8e193539-cdfe-494f-99bf-36cad7a5a29f.png">
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Dawn-Traveling (1)](https://user-images.githubusercontent.com/43869718/194991109-7744bb5f-7f6b-420a-b02b-56e12d5376b1.png)
